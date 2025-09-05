@@ -1,0 +1,104 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(mamá.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.container2 {
+    position: absolute;
+    background: linear-gradient(45deg, rgba(47, 0, 255, 0.35), rgb(140, 0, 255, 0.35));
+    backdrop-filter: blur(6px);
+    padding: 4rem;
+    border-radius: 1rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    box-shadow: 5px 5px 0px rgba(140, 0, 255, 0.199);
+    color: white;
+}
+
+.header {
+    background: linear-gradient(45deg, rgba(47, 0, 255, 0.3), rgb(140, 0, 255, 0.3));
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* .uno {
+    padding: 3rem;
+    background: linear-gradient(45deg, rgba(47, 0, 255, 0.5), rgb(140, 0, 255, 0.5));
+    width: 20%;
+}
+
+.dos {
+    padding: 3rem;
+    background: linear-gradient(45deg, rgba(47, 0, 255, 0.5), rgb(140, 0, 255, 0.5));
+    width: 20%;
+}
+
+.tres {
+    padding: 3rem;
+    background: linear-gradient(45deg, rgba(47, 0, 255, 0.5), rgb(140, 0, 255, 0.5));
+    width: 20%;
+}
+
+.cuatro {
+    padding: 3rem;
+    background: linear-gradient(45deg, rgba(47, 0, 255, 0.5), rgb(140, 0, 255, 0.5));
+    width: 20%;
+} */
+
+.to {
+    backdrop-filter: blur(6px);
+    padding: 4rem;
+    background: linear-gradient(45deg, rgba(47, 0, 255, 0.35), rgb(140, 0, 255, 0.35));
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.izquierda {
+    position: absolute;
+    justify-content: left;
+    top: 1%;
+    left: 1%;
+    color: white;
+}
+
+.derecha {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: right;
+    top: 10%;
+    right: 1%;
+    color: white;
+}
+
+/* Diseño de botones */
+/* .btn1 {
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius: 6px;
+    padding: 4px;
+    padding-inline: 60px;
+} */
+
+/* clase que se ejecutará si el script de "tachar" está conectado al html */
+.linea {
+    color: white;
+    text-decoration:line-through solid red 2px;
+}
