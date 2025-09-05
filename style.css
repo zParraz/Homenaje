@@ -49,6 +49,7 @@ body {
     display: flex;
     position: relative;
 }
+
 .izquierda {
     position: absolute;
     justify-content: left;
@@ -73,7 +74,7 @@ body {
 /* clase que se ejecutará si el script de "tachar" está conectado al html */
 .linea {
     color: white;
-    text-decoration:line-through solid red 2px;
+    text-decoration: line-through solid red 2px;
 }
 
 /* Codigos desechables */
