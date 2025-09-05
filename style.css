@@ -37,29 +37,7 @@ body {
     justify-content: center;
 }
 
-/* .uno {
-    padding: 3rem;
-    background: linear-gradient(45deg, rgba(47, 0, 255, 0.5), rgb(140, 0, 255, 0.5));
-    width: 20%;
-}
 
-.dos {
-    padding: 3rem;
-    background: linear-gradient(45deg, rgba(47, 0, 255, 0.5), rgb(140, 0, 255, 0.5));
-    width: 20%;
-}
-
-.tres {
-    padding: 3rem;
-    background: linear-gradient(45deg, rgba(47, 0, 255, 0.5), rgb(140, 0, 255, 0.5));
-    width: 20%;
-}
-
-.cuatro {
-    padding: 3rem;
-    background: linear-gradient(45deg, rgba(47, 0, 255, 0.5), rgb(140, 0, 255, 0.5));
-    width: 20%;
-} */
 
 .to {
     backdrop-filter: blur(6px);
@@ -90,6 +68,39 @@ body {
     color: white;
 }
 
+
+
+/* clase que se ejecutará si el script de "tachar" está conectado al html */
+.linea {
+    color: white;
+    text-decoration:line-through solid red 2px;
+}
+
+/* Codigos desechables */
+
+/* .uno {
+    padding: 3rem;
+    background: linear-gradient(45deg, rgba(47, 0, 255, 0.5), rgb(140, 0, 255, 0.5));
+    width: 20%;
+}
+
+.dos {
+    padding: 3rem;
+    background: linear-gradient(45deg, rgba(47, 0, 255, 0.5), rgb(140, 0, 255, 0.5));
+    width: 20%;
+}
+
+.tres {
+    padding: 3rem;
+    background: linear-gradient(45deg, rgba(47, 0, 255, 0.5), rgb(140, 0, 255, 0.5));
+    width: 20%;
+}
+
+.cuatro {
+    padding: 3rem;
+    background: linear-gradient(45deg, rgba(47, 0, 255, 0.5), rgb(140, 0, 255, 0.5));
+    width: 20%;
+} */
 /* Diseño de botones */
 /* .btn1 {
     background-color: white;
@@ -99,9 +110,3 @@ body {
     padding: 4px;
     padding-inline: 60px;
 } */
-
-/* clase que se ejecutará si el script de "tachar" está conectado al html */
-.linea {
-    color: white;
-    text-decoration:line-through solid red 2px;
-}
