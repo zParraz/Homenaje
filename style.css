@@ -3,6 +3,9 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
     background-image: url(mamá.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,13 +25,15 @@ body {
     border-radius: 1rem;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 100%);
+    transform: translate(-50%);
     box-shadow: 5px 5px 0px rgba(140, 0, 255, 0.199);
     color: white;
+    width: 90%;
+    text-align: left;
 }
 
 .header {
-    background: linear-gradient(45deg, rgba(47, 0, 255, 0.3), rgb(140, 0, 255, 0.3));
+    background: linear-gradient(45deg, rgba(40, 24, 111, 0.3), rgba(0, 0, 0, 0.3));
     border-radius: 10px;
     display: flex;
     flex-direction: row;
@@ -62,7 +67,7 @@ body {
 .to {
     backdrop-filter: blur(6px);
     padding: 4rem;
-    background: linear-gradient(45deg, rgba(47, 0, 255, 0.35), rgb(140, 0, 255, 0.35));
+    background: linear-gradient(45deg, rgba(47, 0, 255, 0.35), rgba(140, 0, 255, 0.35));
     border-radius: 10px;
     width: 100%;
     display: flex;
